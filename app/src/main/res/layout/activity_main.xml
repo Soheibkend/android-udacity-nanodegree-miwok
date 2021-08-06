@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tan_background"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id = "@+id/numbers"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="@string/category_numbers"
+        android:background="@color/category_numbers"
+        android:padding="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="19dp"
+
+        />
+
+    <TextView
+        android:id = "@+id/family"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="@string/category_family"
+        android:padding="29dp"
+        android:textSize="19dp"
+        android:textColor="@color/white"
+        android:background="@color/category_family"
+        android:textStyle="bold"
+       />
+
+    <TextView
+        android:id = "@+id/colors"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="@string/category_colors"
+        android:background="@color/category_colors"
+        android:textSize="19dp"
+        android:padding="29dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:id = "@+id/phrases"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:padding="29dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="19dp"
+        android:text="@string/category_phrases"
+        android:background="@color/category_phrases"
+       />
+
+</LinearLayout>
